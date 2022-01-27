@@ -18,6 +18,7 @@ class CircleView(context: Context, attributeSet: AttributeSet) : View(context, a
 
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
+
         paint.color = Color.RED
         canvas?.drawCircle(radius, radius, radius, paint)
 
